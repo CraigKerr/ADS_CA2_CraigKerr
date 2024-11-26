@@ -2,10 +2,13 @@
 //
 
 #include <iostream>
+#include "BinaryTree.h"
 
 int main()
 {
-    std::cout << "Hello World!\n";
+    Entity<string, int> e1("Fallout", 10);
+
+    return 0;
 }
 
 // Run program: Ctrl + F5 or Debug > Start Without Debugging menu
