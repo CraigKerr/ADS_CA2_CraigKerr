@@ -7,7 +7,7 @@ class Entity
 	K first;
 	V second;
 public:
-	Entity(K& f, V& s);
+	Entity(const K& f,const V& s);
 	void setFirst(K& f);
 	void setSecond(V& s);
 	K& getFirst();
@@ -24,7 +24,7 @@ ostream& operator<<(ostream& out, Entity<K, V>& pair)
 }
 
 template <class K, class V>
-Entity<K, V>::Entity(K& f, V& s)
+Entity<K, V>::Entity(const K& f,const V& s)
 {
 	this->first = f;
 	this->second = s;

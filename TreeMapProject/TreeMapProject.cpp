@@ -1,23 +1,78 @@
 // TreeMapProject.cpp : This file contains the 'main' function. Program execution begins and ends there.
 //
+using namespace std;
 
 #include <iostream>
-#include "BinaryTree.h"
+#include <fstream>
+#include <sstream>
+#include <vector>
+#include "TreeMap.h"
+#include "Entity.h"
+#include "Game.h"
+
+//Creating Map
+TreeMap<string, Game> gamesMap;
+
+//Read File and add Games to game Vector
+vector<Game> readFile(const string& fname)
+{
+    vector<Game> games;
+    ifstream file(fname);
+
+    if (!file.is_open())
+    {
+        cerr << "Error: Could not open file " << fname << endl;
+        return games;
+    }
+
+    string line;
+    bool isFirstLine = true;
+
+    while (getline(file, line))
+    {
+        if (isFirstLine)
+        {
+            isFirstLine = false;
+            continue;
+        }
+
+        stringstream ss(line);
+        string title, developer, genre, ratingStr, priceStr;
+
+        getline(ss, title, ',');
+        getline(ss, developer, ',');
+        getline(ss, genre, ',');
+        getline(ss, ratingStr, ',');
+        getline(ss, priceStr, ',');
+
+        float rating = stof(ratingStr);
+        float price = stof(priceStr);
+
+        games.emplace_back(title, developer, genre, rating, price);
+    }
+
+    file.close();
+    return games;
+}
+
+//Iterate through games vector and create Entity and add to Map
+void addGamesToMap(vector<Game>& games)
+{
+	for (Game& game : games)
+	{
+		Entity<string, Game> e(game.getTitle(), game);
+		gamesMap.put(e.getFirst(), e.getSecond());
+	}
+}
 
 int main()
 {
-    Entity<string, int> e1("Fallout", 10);
 
-    return 0;
+    const string fname = "games.csv";
+    vector<Game> games = readFile(fname);
+	addGamesToMap(games);
+    
+	gamesMap.containsKey("The Witcher 3: Wild Hunt") 
+        ? cout << "The Witcher 3: Wild Hunt is in the map" << endl : 
+        cout << "The Witcher 3: Wild Hunt is not in the map" << endl;
 }
-
-// Run program: Ctrl + F5 or Debug > Start Without Debugging menu
-// Debug program: F5 or Debug > Start Debugging menu
-
-// Tips for Getting Started: 
-//   1. Use the Solution Explorer window to add/manage files
-//   2. Use the Team Explorer window to connect to source control
-//   3. Use the Output window to see build output and other messages
-//   4. Use the Error List window to view errors
-//   5. Go to Project > Add New Item to create new code files, or Project > Add Existing Item to add existing code files to the project
-//   6. In the future, to open this project again, go to File > Open > Project and select the .sln file

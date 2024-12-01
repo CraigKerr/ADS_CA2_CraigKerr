@@ -18,6 +18,7 @@ public:
 	int count();
 	T& get(T& item);
 
+	void iterator();
 	void printInOrder();
 	void printInOrder(BSTNode<T>* node);
 	void printPreOrder();
