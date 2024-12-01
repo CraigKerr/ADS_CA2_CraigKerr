@@ -1,0 +1,101 @@
+Title,Developer,Genre,Rating,Price ($)
+The Legend of Zelda: Breath of the Wild,Nintendo,Action-adventure,9.8,59.99
+Super Mario World,Nintendo,Platformer,9.8,59.49
+Portal 2,Valve,Puzzle-platformer,9.8,58.99
+The Legend of Zelda: A Link to the Past,Nintendo,Action-adventure,9.7,58.49
+Super Metroid,Nintendo,Action-adventure,9.7,57.99
+Mass Effect 2,BioWare,Action RPG,9.7,57.49
+Super Mario 64,Nintendo,Platformer,9.7,56.99
+Red Dead Redemption 2,Rockstar Games,Action-adventure,9.7,56.49
+Half-Life 2,Valve,First-person shooter,9.6,55.99
+Disco Elysium,ZA/UM,Role-playing,9.6,55.49
+Super Mario Bros. 3,Nintendo,Platformer,9.6,54.99
+Tetris,Various,Puzzle,9.6,54.49
+The Witcher 3: Wild Hunt,CD Projekt Red,Action RPG,9.6,53.99
+Metal Gear Solid,Konami,Stealth,9.5,53.49
+Chrono Trigger,Square Enix,Role-playing,9.5,52.99
+Castlevania: Symphony of the Night,Konami,Action-adventure,9.5,52.49
+BioShock,2K Boston,First-person shooter,9.5,51.99
+Bloodborne,FromSoftware,Action RPG,9.5,51.49
+The Elder Scrolls V: Skyrim,Bethesda Game Studios,Action RPG,9.4,50.99
+Grand Theft Auto V,Rockstar North,Action-adventure,9.4,50.49
+Super Mario Odyssey,Developer 21,RPG,9.4,49.99
+The Legend of Zelda: Ocarina of Time,Developer 22,Shooter,9.4,49.49
+Dark Souls,Developer 23,Strategy,9.4,48.99
+Grand Theft Auto: San Andreas,Developer 24,Action-adventure,9.3,48.49
+Final Fantasy VII,Developer 25,RPG,9.3,47.99
+Uncharted 2: Among Thieves,Developer 26,Shooter,9.3,47.49
+Resident Evil 4,Developer 27,Strategy,9.3,46.99
+Halo: Combat Evolved,Developer 28,Action-adventure,9.3,46.49
+Minecraft,Developer 29,RPG,9.2,45.99
+Fortnite,Developer 30,Shooter,9.2,45.49
+World of Warcraft,Developer 31,Strategy,9.2,44.99
+The Elder Scrolls IV: Oblivion,Developer 32,Action-adventure,9.2,44.49
+Starcraft,Developer 33,RPG,9.2,43.99
+Hades,Developer 34,Shooter,9.1,43.49
+Celeste,Developer 35,Strategy,9.1,42.99
+Journey,Developer 36,Action-adventure,9.1,42.49
+Batman: Arkham City,Developer 37,RPG,9.1,41.99
+Overwatch,Developer 38,Shooter,9.1,41.49
+The Last of Us,Developer 39,Strategy,9.0,40.99
+The Last of Us Part II,Developer 40,Action-adventure,9.0,40.49
+Persona 5 Royal,Developer 41,RPG,9.0,39.99
+XCOM 2,Developer 42,Shooter,9.0,39.49
+Hollow Knight,Developer 43,Strategy,9.0,38.99
+Diablo II,Developer 44,Action-adventure,8.9,38.49
+Animal Crossing: New Horizons,Developer 45,RPG,8.9,37.99
+Stardew Valley,Developer 46,Shooter,8.9,37.49
+Undertale,Developer 47,Strategy,8.9,36.99
+Monster Hunter: World,Developer 48,Action-adventure,8.9,36.49
+Mass Effect,Developer 49,RPG,8.8,35.99
+Cyberpunk 2077,Developer 50,Shooter,8.8,35.49
+Control,Developer 51,Strategy,8.8,34.99
+Super Smash Bros. Ultimate,Developer 52,Action-adventure,8.8,34.49
+Doom Eternal,Developer 53,RPG,8.8,33.99
+The Sims 4,Developer 54,Shooter,8.7,33.49
+The Witcher 2: Assassins of Kings,Developer 55,Strategy,8.7,32.99
+League of Legends,Developer 56,Action-adventure,8.7,32.49
+Counter-Strike: Global Offensive,Developer 57,RPG,8.7,31.99
+Dota 2,Developer 58,Shooter,8.7,31.49
+Rocket League,Developer 59,Strategy,8.6,30.99
+Assassin's Creed IV: Black Flag,Developer 60,Action-adventure,8.6,30.49
+Ghost of Tsushima,Developer 61,RPG,8.6,29.99
+Tomb Raider (2013),Developer 62,Shooter,8.6,29.49
+Metroid Prime,Developer 63,Strategy,8.6,28.99
+Bayonetta 2,Developer 64,Action-adventure,8.5,28.49
+Hitman 3,Developer 65,RPG,8.5,27.99
+Final Fantasy XIV,Developer 66,Shooter,8.5,27.49
+Death Stranding,Developer 67,Strategy,8.5,26.99
+Call of Duty: Modern Warfare,Developer 68,Action-adventure,8.5,26.49
+Half-Life,Developer 69,RPG,8.4,25.99
+Red Dead Redemption,Developer 70,Shooter,8.4,25.49
+Splatoon 2,Developer 71,Strategy,8.4,24.99
+Splatoon,Developer 72,Action-adventure,8.4,24.49
+Super Mario Maker 2,Developer 73,RPG,8.4,23.99
+Hitman 2,Developer 74,Shooter,8.3,23.49
+Sea of Thieves,Developer 75,Strategy,8.3,22.99
+Apex Legends,Developer 76,Action-adventure,8.3,22.49
+Valorant,Developer 77,RPG,8.3,21.99
+The Division 2,Developer 78,Shooter,8.3,21.49
+Nier: Automata,Developer 79,Strategy,8.2,20.99
+Forza Horizon 5,Developer 80,Action-adventure,8.2,20.49
+Crash Bandicoot N. Sane Trilogy,Developer 81,RPG,8.2,19.99
+Spyro Reignited Trilogy,Developer 82,Shooter,8.2,19.49
+Borderlands 3,Developer 83,Strategy,8.2,18.99
+Far Cry 5,Developer 84,Action-adventure,8.1,18.49
+Watch Dogs 2,Developer 85,RPG,8.1,17.99
+Gears 5,Developer 86,Shooter,8.1,17.49
+The Outer Worlds,Developer 87,Strategy,8.1,16.99
+Cuphead,Developer 88,Action-adventure,8.1,16.49
+Ori and the Blind Forest,Developer 89,RPG,8.0,15.99
+Ori and the Will of the Wisps,Developer 90,Shooter,8.0,15.49
+Horizon Zero Dawn,Developer 91,Strategy,8.0,14.99
+Ratchet & Clank (2016),Developer 92,Action-adventure,8.0,14.49
+Dead Cells,Developer 93,RPG,8.0,13.99
+Slay the Spire,Developer 94,Shooter,7.9,13.49
+FIFA 23,Developer 95,Strategy,7.9,12.99
+Madden NFL 23,Developer 96,Action-adventure,7.9,12.49
+NBA 2K23,Developer 97,RPG,7.9,11.99
+Elden Ring,Developer 98,Shooter,7.9,11.49
+Marvel's Guardians of the Galaxy,Developer 99,Strategy,7.8,10.99
+It Takes Two,Developer 100,Action-adventure,7.8,10.49
