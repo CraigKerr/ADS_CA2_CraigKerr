@@ -65,6 +65,7 @@ void addGamesToMap(vector<Game>& games)
 	}
 }
 
+
 int main()
 {
 
@@ -75,4 +76,6 @@ int main()
 	gamesMap.containsKey("The Witcher 3: Wild Hunt") 
         ? cout << "The Witcher 3: Wild Hunt is in the map" << endl : 
         cout << "The Witcher 3: Wild Hunt is not in the map" << endl;
-}
+
+	gamesMap.keySet().printInOrder();
+};
